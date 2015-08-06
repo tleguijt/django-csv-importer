@@ -1,9 +1,11 @@
-===
 CSV Importer
-===
+============
 
 CSV Importer is a Django application which allows developers to import CSV files and map their data to models, mapping column headers to model fields.
 
+Fork info
+---------
+This project has been forked from girasquid/django-csv-importer in order to make some changes to make this project compatible with Django 1.8
 
 
 Installation notes

@@ -10,6 +10,8 @@ from csvimporter.models import CSV
 class CSVForm(forms.ModelForm):
     class Meta:
         model = CSV
+        exclude = ()
+        
     exclude_types = getattr(settings, 'CSVIMPORTER_EXCLUDE', [])
     # TODO: this could be so much nicer.
     content_types = ContentType.objects.all()
